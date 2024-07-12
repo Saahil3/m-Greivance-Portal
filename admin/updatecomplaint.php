@@ -55,8 +55,8 @@ if (strlen($_SESSION['alogin']) == 0) {
         }
 
         // Send an SMS using Twilio
-        $twilio_sid = 'ACd62dbbfc2f1b2fea5e94dc01d550154a';
-        $twilio_token = 'e718edfdf157ac4f6e504eb9eff39295';
+        $twilio_sid = 'your twilio ACC id';
+        $twilio_token = 'your twilio token';
         $twilio_phone_number = '+1 432 287 8333';
 
         $client = new Client($twilio_sid, $twilio_token);
